@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://drowned-soul.github.io/mind_haunt_site",
+  "homepage": "https://ImOutOfBounds.github.io/mind",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

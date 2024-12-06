@@ -1,5 +1,4 @@
-import { Container, Title, TitleRed, TextContainer, Text, ImageContainer, Image } from "./Styles"
-import lobo from '../../assets/lobo.png';
+import { Container, Title, TitleRed, TextContainer, Text} from "./Styles"
 
 export default function AboutUs() {
     return (
@@ -13,9 +12,6 @@ export default function AboutUs() {
                 our studio is proud to reveal stories based on real events that are dark and undercover, showing 
                 the importance of tackling uncomfortable topics that deeply affect our society. </Text>
             </TextContainer>
-            <ImageContainer>
-                <Image src={lobo}/>
-            </ImageContainer>
         </Container>
         
     )

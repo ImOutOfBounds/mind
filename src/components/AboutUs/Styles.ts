@@ -29,8 +29,8 @@ export const TitleRed = styled.span`
 `;
 
 export const TextContainer = styled.div`
-    padding: 20px;
-    width: 40vw;
+    padding: 20px 0;
+    width: 80vw;
 `;
 
 export const ImageContainer = styled.div`

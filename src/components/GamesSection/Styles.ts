@@ -14,6 +14,7 @@ export const Title = styled.h1`
     font-family: "Almendra SC", sans-serif;
     display: flex;
     justify-content: center;
+    margin-bottom: 150px;
 `;
 
 export const GamesContainer = styled.div`

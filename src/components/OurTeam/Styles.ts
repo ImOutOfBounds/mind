@@ -26,7 +26,6 @@ export const PersonContainer = styled.div`
     justify-content: space-evenly;
     display: flex;
     margin-bottom: 200px;
-    
 `;
 
 export const PersonCardContainer = styled.div`
@@ -60,26 +59,12 @@ export const PersonCard = styled.div<IPersonCard>`
     justify-content: center;
 `;
 
-export const PersonIcon = styled.div<IPersonCard>`
-    background-image: url(${(props) => props.backgroundImage});
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 18vw;
-    width: 18vw;
+export const PersonIcon = styled.img<IPersonCard>`
+    height: 15vw;
+    z-index: 1;
     border-radius: 100%;
-    position: absolute;
-    z-index: 1;
-`;
-
-export const BorderPersonCard = styled.img`
-    height: 30vw;
-    width: 30vw;
-    object-fit: cover;
-    top: 0;
-    left: 0;
-    z-index: 1;
-
+    margin: 70px 0;
+    border: 15px solid #222;
 `;
 
 export const PersonName = styled.p`
@@ -88,6 +73,7 @@ export const PersonName = styled.p`
     line-height: 1;
     margin: 0;
     font-family: "Alumni Sans", sans-serif;
+    text-align: center
 `;
 
 export const PersonButton = styled.button`

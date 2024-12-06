@@ -16,14 +16,12 @@ export default function Footer() {
                     <WhiteText as="a" href="#about-us">About Us</WhiteText>
                     <WhiteText as="a" href="#games">Games</WhiteText>
                     <WhiteText as="a" href="#team">Team</WhiteText>
-                    <WhiteText as="a" href="#reviews">Reviews</WhiteText>
-                    <WhiteText as="a" href="#art-gallery">Art Gallery</WhiteText>
                     <WhiteText as="a" href="#contact-us">Contact Us</WhiteText>
                 </Container>
                 <Container>
                     <WhiteText as="a" href="#main">Instagram</WhiteText>
                     <WhiteText as="a" href="#main">TikTok</WhiteText>
-                    <WhiteText as="a" href="#main">mindhuntsudios@gmail.com</WhiteText>
+                    <WhiteText as="a" href="#main">studiosmindhaunt@gmail.com</WhiteText>
                 </Container>
             </SubContainer>
             

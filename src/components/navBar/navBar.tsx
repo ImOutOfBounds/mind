@@ -19,12 +19,6 @@ export default function NavBar(props: InavBar) {
             <NavItem as="a" href="#team">
                 Team
             </NavItem>
-            <NavItem as="a" href="#reviews">
-                Reviews
-            </NavItem>
-            <NavItem as="a" href="#art-gallery">
-                Art Gallery
-            </NavItem>
             <NavItem as="a" href="#contact-us">
                 Contact Us
             </NavItem>

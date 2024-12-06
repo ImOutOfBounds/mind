@@ -25,11 +25,6 @@ export default function Games() {
                     to lose it all</GameDescription>
                 </GameCardContainer>
 
-                <GameCardContainer>
-                    <GameCard backgroundImage={game1}></GameCard>
-                    <Button>Project X</Button>
-                    <GameDescription></GameDescription>
-                </GameCardContainer>
 
             </GamesContainer>
         </Container>

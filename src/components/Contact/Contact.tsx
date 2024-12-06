@@ -1,26 +1,24 @@
-import { Container, Title, TitleRed, TextContainer, Text, ContainerInfos, Infos, SubContainer, SubTitle } from "./Styles"
+import { Container, Title, TitleRed, TextContainer, Text, SubContainer, ContainerInfos, SubTitle, Infos} from "./Styles"
 
-export default function Contact() {
+export default function AboutUs() {
     return (
         <Container id="contact-us">
             <TextContainer>
             <Title>Contact <TitleRed>Us</TitleRed></Title>
-            <Text>Interested in partnerships or have questions about our games? 
-            </Text>
-
             <Text>Our team is ready to discuss sales opportunities and strategic 
                 partnerships for our psychological horror game portfolio. If you prefer, 
                 reach out directly via phone or email below. We’re excited to explore 
-                ways to bring immersive and intense experiences to audiences together! 
-                </Text>
-                <SubContainer>
+                ways to bring immersive and intense experiences to audiences together!  </Text>
+            </TextContainer>
+            
+            <SubContainer>
                 
                     <ContainerInfos>
                         <SubTitle>
                         E-MAIL
                         </SubTitle>
                         <Infos>
-                        mindhauntstudios@gmail.com
+                        studiosmindhaunt@gmail.com
                         </Infos>
                     </ContainerInfos>
 
@@ -34,7 +32,6 @@ export default function Contact() {
                     </ContainerInfos>
 
                 </SubContainer>
-            </TextContainer>
         </Container>
         
     )

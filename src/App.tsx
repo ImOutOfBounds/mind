@@ -19,8 +19,6 @@ function App() {
       <AboutUs></AboutUs>
       <Games></Games>
       <OurTeam></OurTeam>
-      <Reviews></Reviews>
-      <ArtGallery></ArtGallery>
       <Contact></Contact>
       <Footer></Footer>
     </>

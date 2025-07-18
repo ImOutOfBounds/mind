@@ -31,3 +31,5 @@ Este projeto contempla o Front-End da plataforma da MindHunt!
 ![Site Banner](/images/rundev.png)
 
 - Abra um navegador de sua preferencia, e digite: http://localhost:5173/, ou o numero da porta que aparecer no terminal
+
+[View on pages](https://imoutofbounds.github.io/mind/)
